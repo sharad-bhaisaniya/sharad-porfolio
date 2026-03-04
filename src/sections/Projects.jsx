@@ -26,43 +26,43 @@ const Projects = () => {
             title: "Metawish AI – Company Portfolio",
             desc: "Developed a production-ready company portfolio platform with Laravel backend, REST APIs, and responsive Tailwind UI. Focused on performance, modular structure, and SEO optimization.",
             tech: ["Laravel", "REST API", "Tailwind CSS", "MySQL"],
-            image: '/public/metawish_image.png',
+            image: '/metawish_image.png',
             links: { github: "#", live: "https://www.metawish.ai/" }
         },
         {
             title: "Vedaro.in – E-commerce Platform",
             desc: "Built a scalable multi-product e-commerce platform with admin panel, product management, order system, and modern responsive UI.",
             tech: ["Laravel", "MySQL", "Authentication", "Blade"],
-            image: '/public/vedaro_image.png',
-            links: { github: "#", live: "https://vedaro.in/" }
+            image: '/vedaro_image.png',
+            links: { github: "https://github.com/sharad-bhaisaniya/vedaro_new_update", live: "https://vedaro.in/" }
         },
         {
             title: "KhetiBazar – Agri Equipment Platform",
             desc: "Agricultural equipment marketplace featuring product listings, backend management, and structured database design.",
             tech: ["Laravel", "Database Design", "Tailwind CSS"],
-            image: '/public/khetibazar_image.png',
+            image: '/khetibazar_image.png',
             links: { github: "#", live: "https://khetibazar.in/" }
         },
         {
             title: "Jewellery ERP System",
             desc: "Inventory & billing system with e-commerce capabilities for jewellery business including admin control & secure data handling.",
             tech: ["Laravel", "MySQL", "Admin Panel", "Security"],
-            image: '/public/jewelBook_image.png',
-            links: { github: "#", live: "https://jwellery.eaznpro.com/" }
+            image: '/jewelBook_image.png',
+            links: { github: "https://github.com/sharad-bhaisaniya/Riddhi_Siddhi_Jewellery", live: "https://jwellery.eaznpro.com/" }
         },
         {
             title: "MySkillShow & VikalpPromotions",
             desc: "Advertisement management system handling campaigns, analytics, and user modules with scalable backend logic.",
             tech: ["Laravel", "MVC", "API Development"],
-            image: '/public/skill_show_image.png',
+            image: '/skill_show_image.png',
             links: { github: "#", live: "https://myskillshow.com/" }
         },
         {
             title: "Bharat Stock Market Research",
             desc: "KYC & subscription-based financial services platform with secure authentication, role-based access, and subscription modules.",
             tech: ["Laravel Sanctum", "Subscription Logic", "Security"],
-            image: '/public/bharat_image.png',
-            links: { github: "#", live: "https://bharatstockmarketresearch.com/" }
+            image: '/bharat_image.png',
+            links: { github: "https://github.com/sharad-bhaisaniya/VPS_BHARAT_STOCK_MARKET_RESEARCH", live: "https://bharatstockmarketresearch.com/" }
         }
     ];
 

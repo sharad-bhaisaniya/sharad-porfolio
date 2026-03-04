@@ -58,7 +58,7 @@ class SmogParticle {
 
 const Hero = () => {
     // Path to your final transparent profile image asset.
-    const finalAssetPath = "/public/image.png";
+    const finalAssetPath = "/image.png";
 
     // 2. Animation Hooks
     const canvasRef = useRef(null);

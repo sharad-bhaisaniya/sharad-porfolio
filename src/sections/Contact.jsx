@@ -13,24 +13,6 @@ import {
 } from "lucide-react";
 import SectionHeading from "../components/SectionHeading";
 
-/* ================= SECTION HEADING ================= */
-
-// const SectionHeading = ({ title, subtitle, badge }) => (
-//     <div className="relative mb-12 space-y-3">
-//         <div className="flex items-center gap-2">
-//             <span className="h-px w-8 bg-theme/40"></span>
-//             <span className="text-xs font-bold uppercase tracking-widest text-theme">
-//                 {badge || "Get in touch"}
-//             </span>
-//         </div>
-//         <h2 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight">
-//             {title}
-//         </h2>
-//         <p className="text-slate-400 text-base max-w-xl leading-relaxed">
-//             {subtitle}
-//         </p>
-//     </div>
-// );
 
 /* ================= MAIN CONTACT ================= */
 
@@ -107,14 +89,14 @@ const Contact = () => {
                             <ContactMethod
                                 icon={<Mail size={18} />}
                                 title="Email"
-                                value="hello@example.com"
+                                value="bhaisaniyasharad@gmail.com"
                                 action={copyToClipboard}
                                 actionLabel={copied ? "Copied!" : "Copy"}
                             />
                             <ContactMethod
                                 icon={<Phone size={18} />}
                                 title="Phone"
-                                value="+91 98765 43210"
+                                value="+91 97520 08368"
                             />
                             <ContactMethod
                                 icon={<MapPin size={18} />}
